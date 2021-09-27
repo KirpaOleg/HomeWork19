@@ -44,7 +44,7 @@ console.log(arr4);
 
 // Task6 +
 const arr6 = [1, 8, -3, 4];
-for (let i = 0; i < 76; i++) {
+for (let i = 0; i < 20; i++) {
 	arr6.push(arr6[i]);
 }
 console.log(arr6);	
@@ -65,7 +65,7 @@ let minus = 0;
 for (let i = 0; i < arr8.length; i++) {
 	if (arr8[i] > 0) {
 	plus += arr8[i];
-	} else if (arr8[i] < 0) {
+	} else {
 		minus += arr8[i];
 	}
 }
@@ -103,7 +103,7 @@ console.log(arr11);
 
 // Task12 +
 const arr12 = [1, 8, -3, 4];
-let y = arr12[arr12.length-1];
+let y = arr12.pop();
 	for (let i = 0; i < arr12.length; i++) {
 		arr12[i] = arr12[i] + y;
 }
